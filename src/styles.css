@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilos para a barra de navegação */
+nav {
+  background-color: #f8f9fa; /* Cor de fundo clara para a barra de navegação */
+  padding: 10px; /* Espaçamento interno */
+  display: flex; /* Usa flexbox para disposição horizontal */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  border-bottom: 1px solid #dee2e6; /* Borda inferior sutil */
+}
+
+nav a {
+  color: #007bff; /* Cor dos links */
+  text-decoration: none; /* Remove o sublinhado dos links */
+  font-size: 20px; /* Tamanho da fonte dos links */
+  margin: 0 20px; /* Espaçamento entre os links */
+  padding: 10px 20px; /* Espaçamento interno dos links */
+  border-radius: 8px; /* Cantos arredondados para os links */
+  transition: background-color 0.3s, color 0.3s; /* Transições suaves para efeitos */
+  display: inline-block; /* Faz com que o link se comporte como um botão */
+}
+
+nav a:hover {
+  background-color: #e2e6ea; /* Cor de fundo ao passar o mouse */
+  color: #0056b3; /* Cor do texto ao passar o mouse */
+}
+
+nav a.active {
+  font-weight: bold; /* Destaca o link ativo */
+  color: #0056b3; /* Cor do texto para o link ativo */
+  background-color: #e2e6ea; /* Cor de fundo para o link ativo */
+}
+
+/*Sim pedi para o chatGPT gerar o arquivo css */
